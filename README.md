@@ -36,9 +36,9 @@ cd device-tracker
    docker run -p 8080:8080 my-device-tracker
    ```
 
-3. The application should start on **[http://localhost:8080](http://localhost:8080)**.
+3. The application should start on **(http://localhost:8080)**.
 
-4. Access the Swagger UI for API documentation at **[http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html)**.
+
 
 ### Running without Docker
 
@@ -52,7 +52,7 @@ cd device-tracker
    mvn spring-boot:run
    ```
 
-3. Access the application on **[http://localhost:8080](http://localhost:8080)** and the Swagger UI at **[http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html)**.
+3. Access the application on **(http://localhost:8080)** 
 
 ---
 
@@ -71,7 +71,7 @@ cd device-tracker
 
 ## 📑 API Documentation
 
-This API is documented using **Swagger**, offering an interactive interface to test endpoints and view example requests and responses. Access it at **[http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html)**.
+This API is documented using **Swagger**, offering an interactive interface to test endpoints and view example requests and responses. Access it at **http://localhost:8080/swagger-ui/index.html**.
 
 ---
 
